@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+  background-color: skyblue;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
